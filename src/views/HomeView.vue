@@ -5,8 +5,7 @@
   <div class="contain">
     <Sidebar />
     <Navbar />
-    <TerminalTrigger />
-    <Terminal />
+    <MainView />
   </div>    
 </template> 
 

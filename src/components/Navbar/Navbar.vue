@@ -64,7 +64,7 @@
 
 	/* SECOND NAV */
 	.second-nav {
-		@apply flex justify-between items-stretch gap-1 h-[36px] mb-2;
+		@apply flex justify-between items-stretch gap-1 h-[36px];
 	}
 
 	.search {
