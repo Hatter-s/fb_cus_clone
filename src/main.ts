@@ -11,6 +11,7 @@ app.use(router)
 
 //Unhead
 import { createHead } from "@unhead/vue"
+
 const head = createHead()
 app.use(head)
 

@@ -3,6 +3,7 @@
         <ChooseAction />
         <div class="search-container">
             <ButtonsBar />
+            <Table />
             <TerminalTrigger />
             <Terminal />
         </div>
