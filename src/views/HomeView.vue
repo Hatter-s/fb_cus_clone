@@ -12,8 +12,9 @@
 <style scoped>
   .contain {
     display: grid;
-    grid-template-columns: min-content 1fr;
+    grid-template-columns: min-content calc(100% - 56px);
     grid-template-rows: min-content 1fr;
+    grid-auto-flow: unset;
   }
 
   .sidebar{

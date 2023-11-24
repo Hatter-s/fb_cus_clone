@@ -76,6 +76,7 @@
                     backgroundImage="url(https://static.xx.fbcdn.net/rsrc.php/v3/yw/r/zT5BdcCRgqO.png?_nc_eui2=AeEdNErn-dCcF0D4uD60wnAUFUqZs7WO3tcVSpmztY7e10c8thjPmH2_RXxwjDK-y7ECI_ossbxhcP_sf4IVVp5q)"
                     backgroundPosition="-18px -576px" backgroundSize="52px 636px" width="16px" height="16px" />
             </button>
+            <TerminalTrigger />
         </div>
         <div class="the-right">
             <div>

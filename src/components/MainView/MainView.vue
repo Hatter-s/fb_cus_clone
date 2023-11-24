@@ -3,8 +3,7 @@
         <ChooseAction />
         <div class="search-container">
             <ButtonsBar />
-            <Table />
-            <TerminalTrigger />
+            <TableView />
             <Terminal />
         </div>
     </div>

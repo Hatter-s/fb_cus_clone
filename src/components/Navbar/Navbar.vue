@@ -11,18 +11,18 @@
 			</div>
 			<div class="flex gap-2 items-center">
 				<p>Thời gian cập nhật: 47 phút trước</p>
-				<button class="btn btn-neu">
+				<button class="btn btn-neu ">
 					<Icon width="16px" height="16px" backgroundSize="26px 2974px"
 					backgroundImage="url('https://static.xx.fbcdn.net/rsrc.php/v3/yk/r/BHWd5E05F5T.png?_nc_eui2=AeFgWD4VYMHID4TQtXENHM2oIBn_R_Tb9togGf9H9Nv22q2R-Klju_JQwZBzRQGzb-gkEQkvEeGs2YhZwfbvtvLp')"
 					backgroundPosition="0px -1790px" />
 				</button>
-				<button class="btn btn-neu">
+				<button class="btn btn-neu btn-disabled">
 					Bỏ bản nháp
 				</button>
-				<button class="btn btn-neu">
+				<button class="btn btn-neu btn-disabled">
 					Xem lại và đăng
 				</button>
-				<button class="btn btn-neu">
+				<button class="btn btn-neu btn-disabled">
 					<Icon width="16px" height="16px" backgroundSize="72px 314px"
 					backgroundImage="url('https://static.xx.fbcdn.net/rsrc.php/v3/yF/r/PKNItHPerh1.png?_nc_eui2=AeGrrrI0YLfS3VoFHQTprawx-YhtiZ6C7iD5iG2JnoLuIDmID5psfrDGISQ4kDRRVHoZxI6waD4Wv8az7y9yrcXH')"
 					backgroundPosition="-18px -246px" />
@@ -61,6 +61,10 @@
 		border: none;
 		@apply h-auto min-h-0 p-3 font-normal normal-case;
 	}
+
+	.btn-disabled {
+        @apply relative before:absolute before:bg-[hsl(0,0%,89.8%)] before:opacity-50 before:inset-0 before:content-[''] before:z-10 z-0 gap-2 text-black;
+    }
 
 	/* SECOND NAV */
 	.second-nav {

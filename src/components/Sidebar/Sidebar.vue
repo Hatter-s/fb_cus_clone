@@ -5,7 +5,7 @@
 </script>
 
 <template>
-	<div class="sidebar py-4 px-3 h-[100vh] flex flex-col bg-white">
+	<div class="sidebar py-4 px-2 h-[100vh] flex flex-col bg-white">
 		<div class="brand-user flex flex-col gap-6 mb-8 justify-center items-center">
 			<img width="28" height="28"
 				src="https://static.xx.fbcdn.net/rsrc.php/yb/r/CnOoIyhtLSO.svg?_nc_eui2=AeGUaWDSSHXebwSFLqKqo-ZEtf_JPOr9hBa1_8k86v2EFozINCepEqCeqszNSjabaoR4RqgoQo_fiywT4Tz47j9b"

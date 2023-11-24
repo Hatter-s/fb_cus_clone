@@ -1,5 +1,5 @@
 <template>
-    <button class="btn btn-success" @click="() => terminalStore.toggleOpenStatus()">Terminal trigger</button>
+    <button class="btn btn-success btn-sm" style="backgroundColor: hsl(90.17 90.95% 39.02% ); color: white" @click="() => terminalStore.toggleOpenStatus()">ICY TOOL</button>
 </template>
 
 <script setup lang="ts">
