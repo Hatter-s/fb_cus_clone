@@ -1,0 +1,75 @@
+import { defineStore } from "pinia";
+
+export const useTableStore = defineStore("table", {
+  state: () => ({
+    bodyContent: [
+      {
+        campaign: "Anh Hà auto(2M/N)",
+        provide: "Nhóm quảng cáo đang tắt",
+        priceStrategy: "Sử dụng chiến lược giá thầu cho nhóm quảng cáo",
+        funding: "Sử dụng ngân sách nhóm quảng cáo",
+        provideSetting: "Lượt click trong 7 ngày hoặc lượt xem trong 1 ngày",
+        result: "-",
+        user: "-",
+        displayCount: "-",
+        pricePerResult: "-",
+        moneySpent: "0 ₫",
+        end: "Đang diễn ra",
+      },
+      {
+        campaign: "A Thảo Xe Ghép HN-HP(400k/N)",
+        provide: "Nhóm quảng cáo đang tắt",
+        priceStrategy: "Sử dụng chiến lược giá thầu cho nhóm quảng cáo",
+        funding: "Sử dụng ngân sách nhóm quảng cáo",
+        provideSetting: "Lượt click trong 7 ngày hoặc lượt xem trong 1 ngày",
+        result: "-",
+        user: "-",
+        displayCount: "-",
+        pricePerResult: "-",
+        moneySpent: "0 ₫",
+        end: "Đang diễn ra",
+      },
+      {
+        campaign: "A Thảo Xe Ghép HN-HP(400k/N)",
+        provide: "Nhóm quảng cáo đang tắt",
+        priceStrategy: "Sử dụng chiến lược giá thầu cho nhóm quảng cáo",
+        funding: "Sử dụng ngân sách nhóm quảng cáo",
+        provideSetting: "Lượt click trong 7 ngày hoặc lượt xem trong 1 ngày",
+        result: "-",
+        user: "-",
+        displayCount: "-",
+        pricePerResult: "-",
+        moneySpent: "0 ₫",
+        end: "Đang diễn ra",
+      },
+      {
+        campaign: "Anh Long phụ kiện ô tô(600k/N)",
+        provide: "Nhóm quảng cáo đang tắt",
+        priceStrategy: "Sử dụng chiến lược giá thầu cho nhóm quảng cáo",
+        funding: "Sử dụng ngân sách nhóm quảng cáo",
+        provideSetting: "Lượt click trong 7 ngày hoặc lượt xem trong 1 ngày",
+        result: "-",
+        user: "-",
+        displayCount: "-",
+        pricePerResult: "-",
+        moneySpent: "0 ₫",
+        end: "Đang diễn ra",
+      },
+    ],
+    footerContent: [
+      {
+        totalCampaign: "Kết quả từ 4 chiến dịch",
+        provideSetting: "Lượt click trong 7 ngày hoặc lượt xem trong 1 ngày",
+        result: "-",
+        user: "-",
+        displayCount: "-",
+        pricePerResult: "-",
+        moneySpent: "0 ₫",
+      },
+    ],
+  }),
+
+  actions: {},
+
+  getters: {},
+});
