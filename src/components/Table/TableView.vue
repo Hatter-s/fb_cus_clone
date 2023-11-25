@@ -20,9 +20,19 @@
                                 backgroundPosition="0px -2862px" backgroundSize="26px 2974px" width="12px" height="12px" />
                         </div>
                     </th>
-                    <th ref="thProvide" style="width: 200px;">
+                    <th 
+                        ref="thProvide"
+                        class="text-pri" 
+                        style="width: 200px;"
+
+                    >
                         <div>
-                            Phân phối
+                            <p class="flex items-center leading-2">
+                                Phân phối
+                                <Icon
+                                backgroundImage="url(https://static.xx.fbcdn.net/rsrc.php/v3/yk/r/BHWd5E05F5T.png?_nc_eui2=AeFgWD4VYMHID4TQtXENHM2oIBn_R_Tb9togGf9H9Nv22q2R-Klju_JQwZBzRQGzb-gkEQkvEeGs2YhZwfbvtvLp)"
+                                backgroundPosition="0px -1772px" backgroundSize="26px 2974px" width="16px" height="16px" />
+                            </p>
                             <Icon
                                 backgroundImage="url(https://static.xx.fbcdn.net/rsrc.php/v3/yk/r/BHWd5E05F5T.png?_nc_eui2=AeFgWD4VYMHID4TQtXENHM2oIBn_R_Tb9togGf9H9Nv22q2R-Klju_JQwZBzRQGzb-gkEQkvEeGs2YhZwfbvtvLp)"
                                 backgroundPosition="0px -2862px" backgroundSize="26px 2974px" width="12px" height="12px" />
@@ -127,10 +137,10 @@
                         </p>
                     </td>
                     <td>
-                        <p>
+                        <p class="text-start">
                             <Icon
-                                backgroundImage="url(https://static.xx.fbcdn.net/rsrc.php/v3/yf/r/qbFejCzetqH.png?_nc_eui2=AeGiurWcAocifroRi4htkayaYyIXjxVi475jIhePFWLjvkabdXstm1Mb-2USkxxiCu6I7ITYAMLmlg7zvOL1je7L)"
-                                backgroundSize="26px 128px" backgroundPosition="0px -108px" width="8px" height="8px" />
+                                backgroundImage="url(https://static.xx.fbcdn.net/rsrc.php/v3/yp/r/8quuTlOPqAR.png)"
+                                backgroundSize="25px 121px" backgroundPosition=" -9px -112px" width="8px" height="8px" />
 
                             <span class="pl-2">
                                 {{ content.provide }}

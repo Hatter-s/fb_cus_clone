@@ -5,7 +5,7 @@ export const useTableStore = defineStore("table", {
     bodyContent: [
       {
         campaign: "Anh Hà auto(2M/N)",
-        provide: "Nhóm quảng cáo đang tắt",
+        provide: "Đang xử lý",
         priceStrategy: "Sử dụng chiến lược giá thầu cho nhóm quảng cáo",
         funding: "Sử dụng ngân sách nhóm quảng cáo",
         provideSetting: "Lượt click trong 7 ngày hoặc lượt xem trong 1 ngày",
@@ -18,7 +18,7 @@ export const useTableStore = defineStore("table", {
       },
       {
         campaign: "A Thảo Xe Ghép HN-HP(400k/N)",
-        provide: "Nhóm quảng cáo đang tắt",
+        provide: "Đang xử lý",
         priceStrategy: "Sử dụng chiến lược giá thầu cho nhóm quảng cáo",
         funding: "Sử dụng ngân sách nhóm quảng cáo",
         provideSetting: "Lượt click trong 7 ngày hoặc lượt xem trong 1 ngày",
@@ -31,7 +31,7 @@ export const useTableStore = defineStore("table", {
       },
       {
         campaign: "A Thảo Xe Ghép HN-HP(400k/N)",
-        provide: "Nhóm quảng cáo đang tắt",
+        provide: "Đang xử lý",
         priceStrategy: "Sử dụng chiến lược giá thầu cho nhóm quảng cáo",
         funding: "Sử dụng ngân sách nhóm quảng cáo",
         provideSetting: "Lượt click trong 7 ngày hoặc lượt xem trong 1 ngày",
@@ -44,7 +44,7 @@ export const useTableStore = defineStore("table", {
       },
       {
         campaign: "Anh Long phụ kiện ô tô(600k/N)",
-        provide: "Nhóm quảng cáo đang tắt",
+        provide: "Đang xử lý",
         priceStrategy: "Sử dụng chiến lược giá thầu cho nhóm quảng cáo",
         funding: "Sử dụng ngân sách nhóm quảng cáo",
         provideSetting: "Lượt click trong 7 ngày hoặc lượt xem trong 1 ngày",
