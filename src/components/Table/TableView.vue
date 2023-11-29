@@ -126,12 +126,15 @@
                             <input type="checkbox" checked>
                             <span class="slider round"></span>
                         </label>
+                        <p data-v-aa75956f="" class="neutral-text text-transparent"> Lượt bắt đầu cuộc trò chuyện qua tin
+                            nhắn </p>
                     </td>
                     <td>
-                            <p class="text-pri">
-                                {{ content.campaign }}
-                            </p>
-                            <p data-v-aa75956f="" class="neutral-text text-transparent"> Lượt bắt đầu cuộc trò chuyện qua tin nhắn </p>
+                        <p class="text-pri">
+                            {{ content.campaign }}
+                        </p>
+                        <p data-v-aa75956f="" class="neutral-text text-transparent"> Lượt bắt đầu cuộc trò chuyện qua tin
+                            nhắn </p>
                     </td>
                     <td>
                         <p class="text-start">
@@ -142,25 +145,25 @@
                                 {{ content.provide }}
                             </span>
                         </p>
-                        <p data-v-aa75956f="" class="neutral-text text-transparent"> Lượt bắt đầu cuộc trò chuyện qua tin nhắn </p>
+                        <p class="neutral-text text-transparent"> Lượt bắt đầu cuộc trò chuyện qua tin nhắn </p>
                     </td>
                     <td>
                         <p>
                             {{ content.priceStrategy }}
                         </p>
-                        <p data-v-aa75956f="" class="neutral-text text-transparent"> Lượt bắt đầu cuộc trò chuyện qua tin nhắn </p>
+                        <p class="neutral-text text-transparent"> Lượt bắt đầu cuộc trò chuyện qua tin nhắn </p>
                     </td>
                     <td>
                         <p>
                             {{ content.funding }}
                         </p>
-                        <p data-v-aa75956f="" class="neutral-text text-transparent"> Lượt bắt đầu cuộc trò chuyện qua tin nhắn </p>
+                        <p class="neutral-text text-transparent"> Lượt bắt đầu cuộc trò chuyện qua tin nhắn </p>
                     </td>
                     <td>
                         <p>
                             {{ content.provideSetting }}
                         </p>
-                        <p data-v-aa75956f="" class="neutral-text text-transparent"> Lượt bắt đầu cuộc trò chuyện qua tin nhắn </p>
+                        <p class="neutral-text text-transparent"> Lượt bắt đầu cuộc trò chuyện qua tin nhắn </p>
                     </td>
                     <td>
                         <div>
@@ -188,13 +191,13 @@
                         <p>
                             {{ content.moneySpent }}
                         </p>
-                        <p data-v-aa75956f="" class="neutral-text text-transparent"> Lượt bắt đầu cuộc trò chuyện qua tin nhắn </p>
+                        <p class="neutral-text text-transparent"> Lượt bắt đầu cuộc trò chuyện qua tin nhắn </p>
                     </td>
                     <td>
                         <p>
                             {{ content.end }}
                         </p>
-                        <p data-v-aa75956f="" class="neutral-text text-transparent"> Lượt bắt đầu cuộc trò chuyện qua tin nhắn </p>
+                        <p class="neutral-text text-transparent"> Lượt bắt đầu cuộc trò chuyện qua tin nhắn </p>
                     </td>
                     <td></td>
                 </tr>
