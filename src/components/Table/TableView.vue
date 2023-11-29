@@ -20,18 +20,14 @@
                                 backgroundPosition="0px -2862px" backgroundSize="26px 2974px" width="12px" height="12px" />
                         </div>
                     </th>
-                    <th 
-                        ref="thProvide"
-                        class="text-pri" 
-                        style="width: 200px;"
-
-                    >
+                    <th ref="thProvide" class="text-pri" style="width: 200px;">
                         <div>
                             <p class="flex items-center leading-2">
                                 Phân phối
                                 <Icon
-                                backgroundImage="url(https://static.xx.fbcdn.net/rsrc.php/v3/yk/r/BHWd5E05F5T.png?_nc_eui2=AeFgWD4VYMHID4TQtXENHM2oIBn_R_Tb9togGf9H9Nv22q2R-Klju_JQwZBzRQGzb-gkEQkvEeGs2YhZwfbvtvLp)"
-                                backgroundPosition="0px -1772px" backgroundSize="26px 2974px" width="16px" height="16px" />
+                                    backgroundImage="url(https://static.xx.fbcdn.net/rsrc.php/v3/yk/r/BHWd5E05F5T.png?_nc_eui2=AeFgWD4VYMHID4TQtXENHM2oIBn_R_Tb9togGf9H9Nv22q2R-Klju_JQwZBzRQGzb-gkEQkvEeGs2YhZwfbvtvLp)"
+                                    backgroundPosition="0px -1772px" backgroundSize="26px 2974px" width="16px"
+                                    height="16px" />
                             </p>
                             <Icon
                                 backgroundImage="url(https://static.xx.fbcdn.net/rsrc.php/v3/yk/r/BHWd5E05F5T.png?_nc_eui2=AeFgWD4VYMHID4TQtXENHM2oIBn_R_Tb9togGf9H9Nv22q2R-Klju_JQwZBzRQGzb-gkEQkvEeGs2YhZwfbvtvLp)"
@@ -132,35 +128,39 @@
                         </label>
                     </td>
                     <td>
-                        <p class="text-pri">
-                            {{ content.campaign }}
-                        </p>
+                            <p class="text-pri">
+                                {{ content.campaign }}
+                            </p>
+                            <p data-v-aa75956f="" class="neutral-text text-transparent"> Lượt bắt đầu cuộc trò chuyện qua tin nhắn </p>
                     </td>
                     <td>
                         <p class="text-start">
-                            <Icon
-                                backgroundImage="url(https://static.xx.fbcdn.net/rsrc.php/v3/yp/r/8quuTlOPqAR.png)"
+                            <Icon backgroundImage="url(https://static.xx.fbcdn.net/rsrc.php/v3/yp/r/8quuTlOPqAR.png)"
                                 backgroundSize="25px 121px" backgroundPosition=" -9px -112px" width="8px" height="8px" />
 
                             <span class="pl-2">
                                 {{ content.provide }}
                             </span>
                         </p>
+                        <p data-v-aa75956f="" class="neutral-text text-transparent"> Lượt bắt đầu cuộc trò chuyện qua tin nhắn </p>
                     </td>
                     <td>
                         <p>
                             {{ content.priceStrategy }}
                         </p>
+                        <p data-v-aa75956f="" class="neutral-text text-transparent"> Lượt bắt đầu cuộc trò chuyện qua tin nhắn </p>
                     </td>
                     <td>
                         <p>
                             {{ content.funding }}
                         </p>
+                        <p data-v-aa75956f="" class="neutral-text text-transparent"> Lượt bắt đầu cuộc trò chuyện qua tin nhắn </p>
                     </td>
                     <td>
                         <p>
                             {{ content.provideSetting }}
                         </p>
+                        <p data-v-aa75956f="" class="neutral-text text-transparent"> Lượt bắt đầu cuộc trò chuyện qua tin nhắn </p>
                     </td>
                     <td>
                         <div>
@@ -188,11 +188,13 @@
                         <p>
                             {{ content.moneySpent }}
                         </p>
+                        <p data-v-aa75956f="" class="neutral-text text-transparent"> Lượt bắt đầu cuộc trò chuyện qua tin nhắn </p>
                     </td>
                     <td>
                         <p>
                             {{ content.end }}
                         </p>
+                        <p data-v-aa75956f="" class="neutral-text text-transparent"> Lượt bắt đầu cuộc trò chuyện qua tin nhắn </p>
                     </td>
                     <td></td>
                 </tr>
@@ -374,6 +376,10 @@ p {
     @apply text-xs;
 }
 
+.neutral-text.text-transparent {
+    color: transparent;
+}
+
 .text-pri {
     color: rgb(20, 97, 204);
     text-align: start;
@@ -550,4 +556,5 @@ input:checked+.slider:before {
 ::-webkit-scrollbar-thumb:hover {
     background: hsl(0, 0%, 50.08%);
     ;
-}</style>
+}
+</style>
