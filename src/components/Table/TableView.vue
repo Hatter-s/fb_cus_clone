@@ -175,8 +175,14 @@
                             </p>
                         </div>
                     </td>
-                    <td>{{ content.user }}</td>
-                    <td>{{ content.displayCount }}</td>
+                    <td>
+                        {{ content.user }}
+                        <p class="neutral-text text-transparent"> Lượt bắt đầu cuộc trò chuyện qua tin nhắn </p>
+                    </td>
+                    <td>
+                        {{ content.displayCount }}
+                        <p class="neutral-text text-transparent"> Lượt bắt đầu cuộc trò chuyện qua tin nhắn </p>
+                    </td>
                     <td>
                         <div>
                             <span>
