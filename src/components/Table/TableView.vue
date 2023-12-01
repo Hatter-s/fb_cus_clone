@@ -230,11 +230,15 @@
                     <td>
                         <p class="font-bold text-start">
                             {{ content.provideSetting }}
+                            <p class="neutral-text text-transparent"> Lượt bắt đầu cuộc trò chuyện qua tin
+                            nhắn </p>
                         </p>
                     </td>
                     <td>
                         <p class="font-bold">
                             {{ content.result }}
+                            <p class="neutral-text text-transparent"> Lượt bắt đầu cuộc trò chuyện qua tin
+                            nhắn </p>
                         </p>
                     </td>
                     <td>
@@ -257,6 +261,8 @@
                         <p class="font-bold">
                             {{ content.pricePerResult }}
                         </p>
+                        <p class="neutral-text text-transparent"> Lượt bắt đầu cuộc trò chuyện qua tin
+                            nhắn </p>
                     </td>
                     <td>
                         <p class="font-bold">
